@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
-  - LDATools (0.1.3):
+  - LDATools (0.1.4):
     - Alamofire
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  LDATools: f2f71c72d5354bb6d226786c2bba75dbd75093d1
+  LDATools: 20d1f1413caa6a91efd9ae5fe417d5486da8ae32
 
 PODFILE CHECKSUM: 7fb4497e0ebeda9f8e96cec945c1642aec674e91
 
