@@ -3,11 +3,9 @@ language: objective-c
 cache: cocoapods
 podfile: Example/Podfile
 xcode_destination: platform=iOS Simulator,OS=11.4,name=iPhone X
-xcode_scheme: LDATools-Example
+xcode_scheme: LDATools-ExampleTests
 xcode_project: Example/LDATools.xcworkspace
 before_install:
   - gem install cocoapods
   - pod install --project-directory=Example
   - gem update cocoapods
-script:
-  - bash <(curl -s https://codecov.io/bash) -f reports/cobertura.xml -X coveragepy -X gcov -X xcode
