@@ -1,0 +1,6 @@
+framework module Pods_LDATools_Example {
+  umbrella header "Pods-LDATools_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

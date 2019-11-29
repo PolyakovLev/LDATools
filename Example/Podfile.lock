@@ -1,0 +1,16 @@
+PODS:
+  - LDATools (0.1.0)
+
+DEPENDENCIES:
+  - LDATools (from `../`)
+
+EXTERNAL SOURCES:
+  LDATools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LDATools: 3fc6c13efba2b2fdf9c2a3370dcd09844ed51ef2
+
+PODFILE CHECKSUM: 7fb4497e0ebeda9f8e96cec945c1642aec674e91
+
+COCOAPODS: 1.8.4
