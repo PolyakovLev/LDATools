@@ -45,7 +45,7 @@
 		915AF5C280875832DBB6167A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A5C7204E9A72A421549602DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DD0A6775CE53A8009EA07795 /* Pods-LDATools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDATools_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LDATools_Tests/Pods-LDATools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F4FDF5C0F040EAB6E6D37857 /* LDATools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LDATools.podspec; path = ../LDATools.podspec; sourceTree = "<group>"; };
+		F4FDF5C0F040EAB6E6D37857 /* LDATools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LDATools.podspec; path = ../LDATools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FB2283BABA377E4F2713E104 /* Pods_LDATools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDATools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LDATools'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Library includes different useful tools, which our team LDA going to use for learning iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ etc.
   s.source           = { :git => 'https://github.com/PolyakovLev/LDATools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
   s.swift_version = '5'
   s.source_files = 'LDATools/Classes/**/*'
   
