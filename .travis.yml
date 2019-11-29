@@ -9,5 +9,6 @@ before_install:
   - gem install cocoapods
   - pod install --project-directory=Example
   - gem update cocoapods
+  - xcrun simctl list
 script:
   - xcodebuild -workspace Example/LDATools.xcworkspace -scheme LDATools-Example -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max,OS=13.2' test | xcpretty
