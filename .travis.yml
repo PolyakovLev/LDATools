@@ -3,6 +3,7 @@ osx_image: xcode11.2
 language: objective-c
 sdk: iphonesimulator13.2
 scheme: LDATools-Example
+workspace: Example/LDATools.xcworkspace
 before_install:
   - gem install cocoapods
   - gem update cocoapods
