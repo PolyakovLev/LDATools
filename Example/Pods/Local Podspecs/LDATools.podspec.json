@@ -1,8 +1,8 @@
 {
   "name": "LDATools",
   "version": "0.1.0",
-  "summary": "A short description of LDATools.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Library includes different useful tools, which our team LDA going to use for learning iOS.",
+  "description": "Library includes different useful tools, which our team LDA use by learning IOS. There are some methods and properties, that made our life easier :\nDate periods (like todayMidnight)\nFormaters of differents data (Numbers, Date etc)\nRandom color getter\netc.",
   "homepage": "https://github.com/PolyakovLev/LDATools",
   "license": {
     "type": "MIT",
@@ -18,5 +18,12 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LDATools/Classes/**/*"
+  "swift_versions": "5",
+  "source_files": "LDATools/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  },
+  "swift_version": "5"
 }

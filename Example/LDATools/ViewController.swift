@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import LDATools
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let tool = LDASum()
+        print(tool.sum(a: 4, b: 8))
         // Do any additional setup after loading the view, typically from a nib.
     }
 
