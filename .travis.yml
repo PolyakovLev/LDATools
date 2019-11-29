@@ -1,13 +1,11 @@
 os: osx
 osx_image: xcode11.2
 language: objective-c
-sdk: iphonesimulator13.2
-scheme: LDATools-Example
-workspace: Example/LDATools.xcworkspace
+BUILD_ACTIONS: test
 before_install:
   - gem install cocoapods
   - gem update cocoapods
   - pod install --project-directory=Example
-# script:
-#   - set -o pipefail && xcodebuild -workspace Example/LDATools.xcworkspace -scheme LDATools-Example -destination platform\=iOS\ Simulator,OS\=13.0,name\=iPhone\ 8 build test | xcpretty
-#   - bash <(curl -s https://codecov.io/bash) -f reports/cobertura.xml -X coveragepy -X gcov -X xcode
+script:
+  - set -o pipefail && xcodebuild -workspace Example/LDATools.xcworkspace -scheme LDATools-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO -destination platform\=iOS\ Simulator,OS\=13.0,name\=iPhone\ 8 test | xcpretty
+  - bash <(curl -s https://codecov.io/bash) -f reports/cobertura.xml -X coveragepy -X gcov -X xcode
