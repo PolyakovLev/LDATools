@@ -11,4 +11,4 @@ before_install:
   - gem update cocoapods
   - xcrun simctl list
 script:
-  - xcodebuild -workspace Example/LDATools.xcworkspace -scheme LDATools-Example -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max,OS=13.2' test | xcpretty
+  - xcodebuild -workspace Example/LDATools.xcworkspace -scheme LDATools-Example -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=11.4' test | xcpretty
